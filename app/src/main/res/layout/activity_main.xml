@@ -1,0 +1,37 @@
+<!-- activity_main.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/listContainer"
+        android:name="com.netbai.examenud3marianetbai.ListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/countersContainer"
+        android:name="com.netbai.examenud3marianetbai.CountersFragment"
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        app:layout_constraintBottom_toTopOf="@+id/detailContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listContainer" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/detailContainer"
+        android:name="com.netbai.examenud3marianetbai.DetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

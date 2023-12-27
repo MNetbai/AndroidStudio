@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="#F4E2AB">
+
+    <TextView
+        android:id="@+id/lbl_ins"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Ins"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_dash1"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lbl_mod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="Mod"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_dash2"
+        android:layout_width="27dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lbl_bor"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="Bor"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+</LinearLayout>

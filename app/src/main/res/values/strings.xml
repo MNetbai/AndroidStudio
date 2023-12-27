@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExamenUD3MariaNetbai</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="formatoCounters">Ins %1$d - Mod %2$d - Bor %3$d</string>
+    <string name="ins">Ins %1$d</string>
+    <string name="mod">Mod %1$d</string>
+    <string name="bor">Bor %1$d</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="borrar">Borrar</string>
+    <string name="id">ID:</string>
+    <string name="nombre">Nombre:</string>
+
+</resources>
